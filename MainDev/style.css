@@ -7,10 +7,6 @@
   font-family: 'Raleway', sans-serif;
 
 }
-
-
-
-
 .triHeader{
   width: 100%;
   display: flex;
@@ -20,7 +16,6 @@
 
 
 .Landing{
-  overflow-y: hidden;
   display: flex;
   justify-content: space-evenly;
   
@@ -28,18 +23,12 @@
 
 
 .HeadLand{
-  color: rgb(0, 0, 0);
   position: absolute;
   top: 50%;
   width: 100%;
   text-align: center;
-  font-size: 2em;
-  text-transform: uppercase;
-
 
 }
-
-
 .LandingImg1{  
   z-index: -10;
   width: 33.34%;
@@ -53,9 +42,12 @@
 
 
 .LandingImg2{
+
+
   z-index: -10;
   width: 33.34%;
   height: 100vh;
+  
   background-image: url(../Images/Toronto.jpg);
   background-attachment: fixed;
   background-position: center; /* Center the image */
@@ -64,6 +56,9 @@
 }
 
 .LandingImg3{
+
+
+
   z-index: -10;
   width: 33.34%;
   height: 100vh;
@@ -85,6 +80,11 @@
   font-size: 20px;
   text-align: center;
 }
+
+
+
+
+
 
 
 .grid{
